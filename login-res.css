@@ -1,0 +1,19 @@
+@media screen and (max-width:1025px){
+    video{
+        height: 105vh !important;
+    }
+}
+@media screen and (max-width:769px){
+    body{
+        overflow-x: hidden;
+    }
+    video{
+        height: 112vh !important;
+    }
+}
+@media screen and (max-width:426px){
+    video{
+        height: 135vh !important;
+        left: -20px !important;
+    }
+}

@@ -1,0 +1,116 @@
+.hiddenS {
+  display: none;
+}
+.container {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  max-width: 400px;
+  background: #f8f9fd;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.001) 0%,
+    rgba(244, 247, 251, 0.002) 100%
+  );
+  border-radius: 40px;
+  padding: 25px 35px;
+  border: 5px solid rgba(255, 255, 255, 0.05);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+  margin: 20px;
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+}
+
+.container img {
+  width: 250px;
+  margin: -20px;
+}
+
+.heading {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.form .input {
+  width: 100%;
+  background: white;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-top: 15px;
+  box-shadow: #cff0ff 0px 10px 10px -5px;
+  border-inline: 2px solid transparent;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.form .input::-moz-placeholder {
+  color: rgb(255, 250, 250);
+}
+
+.form .input::placeholder {
+  color: rgb(198, 195, 195);
+}
+
+.form .input:focus {
+  outline: none;
+}
+
+.form .forgot-password {
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.form .forgot-password a {
+  font-size: 11px;
+  color: #0099ff;
+  text-decoration: none;
+}
+
+.form a {
+  text-decoration: none;
+}
+
+.form .login-button {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  background: white;
+  color: black;
+  padding-block: 15px;
+  margin: 20px auto;
+  margin-bottom: 0px;
+  border-radius: 20px;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 20px 10px -15px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.form .login-button:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px;
+}
+
+.form .login-button:active {
+  transform: scale(0.95);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px;
+}
+
+.form .form-floating label:active {
+  background: none;
+}

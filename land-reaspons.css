@@ -1,0 +1,151 @@
+@media screen and (max-width:1024px){
+   
+    body{
+        overflow: hidden;
+    }
+    .overlay .map img{
+       top: 150px;
+    left: 80px;
+    width: 350px;
+    }
+
+    #child1 i {
+       
+        top: -57px;
+        left: 32px;
+    }
+
+    #defaultBg{
+        height: 150vh;
+    }
+    #child3 i:hover + span{
+        top: 50px;
+        left: 5px;
+      }
+
+      
+#child1 i:hover + span{
+  
+    top: -120px;
+    left: 35px;
+  }
+
+    .overlay ul{
+        top: 251px;
+    left: 166px;
+    }
+
+    .content .heading {
+        margin-top: 50px;
+      }
+      .about-para p {
+        font-size: 15px;
+      width: 20rem;
+    }
+    .aboutBtn {
+        margin-top: -20px;
+       
+      }
+
+
+      .main video{
+        width: 110%;
+        height: 120vh;
+        margin-top: -70px;
+        object-fit: cover;
+      }
+}
+
+@media screen and (max-width:769px){
+    body{
+        overflow: hidden;
+    }
+    .content{
+        padding-left: 20px;
+    }
+    .overlay .map img {
+        top: 140px;
+        left: 16px;
+        width: 330px;
+    }
+    .overlay ul {
+        top: 227px;
+        left: 112px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .main{
+        position: relative;
+    }    
+    .wraper{
+        position: absolute;
+        top: 100vh;
+
+    }
+
+
+    #defaultBg{
+        height: 160vh;
+    }
+    
+    .heading{
+        text-align: center;
+        width: 380px;
+    }
+.animated-button {
+    width: 200%;
+}
+
+.about-para p{
+    margin-left: 30px;
+}
+
+
+.animated-button:hover .circle {
+    width: 520px;
+    height: 220px;
+    opacity: 1;
+  }
+
+.aboutBtn .button{
+    width: 326px;
+}
+  
+}
+
+@media screen and (max-width:376px){
+
+    .aboutBtn .button{
+        width: 275px !important;
+        margin-right: 50px;
+    }
+
+    .heading{
+        width: 288px;
+        margin-top: 0px !important;
+    }
+
+    .about-para p{
+        margin-left: 6px;
+        width: 16rem;
+    }
+}
+
+@media screen and (max-width:322px){
+
+    .aboutBtn .button{
+        width: 220px !important;
+        margin-right: 50px;
+    }
+
+    .heading{
+        width: 250px;
+        margin-top: 0px !important;
+    }
+
+    .about-para p{
+        margin-left: 6px;
+        width: 16rem;
+    }
+}

@@ -1,0 +1,35 @@
+
+@media screen and (max-width:1025px) {
+    .main .overlay video {
+      width: 110% !important;
+    }
+  }
+
+@media screen and (max-width:769px) {
+    .main .overlay video {
+      width: 150% !important;
+    }
+  }
+
+@media screen and (max-width:426px) {
+    .main .overlay video {
+      width: 300% !important;
+      object-fit: cover;
+      object-position: center;
+    }
+    .container{
+      margin-left: 0px !important;
+    }
+  }
+@media screen and (max-width:426px) {
+    .main .overlay video {
+      width: 400% !important;
+    
+    }
+  }
+@media screen and (max-width:376px) {
+  .container{
+    margin-left: 0px !important;
+  }
+
+  }

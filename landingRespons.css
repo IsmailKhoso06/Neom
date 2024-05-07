@@ -1,0 +1,229 @@
+@media screen and (max-width: 1357px) {
+  #map {
+    position: absolute;
+    top: 42px;
+    left: 400px;
+    top: 226px;
+    width: 400px;
+  }
+  ul {
+    left: 500px;
+    top: 433px;
+  }
+  #ch4 {
+    margin-top: 39px;
+    margin-left: 84px;
+  }
+  #ch3 {
+    margin-left: 66px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  #map {
+    left: 360px;
+  }
+  ul {
+    left: 462px;
+    top: 436px;
+  }
+}
+@media screen and (max-width: 1025px) {
+ 
+  #map {
+    left: 448px;
+    top: 233px;
+    width: 477px;
+  }
+  ul {
+    left: 585px;
+    top: 498px;
+  }
+  #textDesc h3 {
+    font-size: 50px;
+    text-align: center;
+  }
+  #textDesc h3::after {
+    margin-left: 300px;
+    width: 300px;
+  }
+
+  #textDesc .button {
+    margin-left: 330px;
+    margin-top: 50px;
+  }
+
+  #textDesc p {
+    padding-top: 23px;
+    text-align: center;
+  }
+
+  .heading h2 {
+    width: 250px;
+  }
+  #vid1,
+  #vid2,
+  #vid3,
+  #vid4 {
+    height: 125vh;
+  }
+}
+
+@media screen and (max-width: 769px) {
+
+  #textDesc p {
+    margin-right: -90px;
+  }
+  #textDesc .button {
+    margin-left: 260px;
+  }
+
+  #textDesc {
+    margin-right: -100px;
+  }
+
+  #textDesc h3::after {
+    margin-left: 225px;
+  }
+  .navbar {
+    width: 120%;
+  }
+  #vid1,
+  #vid2,
+  #vid3,
+  #vid4 {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  body{
+    background-color: black;
+  }
+  #defaultBg{
+    height: 1500px;
+    left: -500px;
+  }
+  .navbar {
+      width: 184% !important;
+  }
+  #textDesc p {
+    margin-right: -136px;
+}
+}
+
+@media screen and (max-width: 426px) {
+  #map {
+    left: 193px;
+    top: 227px;
+    width: 500px;
+  }
+
+  #textDesc p {
+    font-size: 30px;
+  }
+  #textDesc .button {
+    margin-left: 160px;
+  }
+  #textDesc h3 {
+    margin-left: 60px;
+  }
+
+  #textDesc {
+    margin-top: 150px;
+    margin-right: -200px;
+  }
+
+  #textDesc h3::after {
+    margin-left: 80px;
+  }
+  .navbar {
+    width: 160%;
+  }
+  #ibms {
+    margin-right: 132px;
+    margin-left: -58px;
+  }
+
+  ul {
+    left: 344px;
+    top: 518px;
+  }
+
+  #vid1,
+  #vid2,
+  #vid3,
+  #vid4 {
+    margin-top: -1000px;
+  }
+}
+
+@media screen and (max-width: 322px) {
+
+  body{
+    overflow: hidden;
+  }
+  .navbar {
+    width: 184%;
+}
+
+  #defaultBg{
+    width: 2000px;
+    left: -500px;
+    height: 1500px;
+    top: 0px;
+  }
+
+  #ibms {
+    display: none;
+  }
+
+  #defaultBg {
+   left: -650px;
+  }
+
+
+  .heading h2{
+    margin-left: 150px;
+    width: 300px;
+    font-size: 40px;
+  }
+  .navbar {
+    width: 210% !important;
+}
+
+  .sideManu {
+    width: 600px;
+  }
+
+  .animated-button {
+    width: 100%;
+  }
+
+  .animated-button:hover .circle {
+    width: 1000px;
+  }
+
+  #map {
+    display: none;
+  }
+  ul {
+    display: none;
+  }
+  #textDesc h3 {
+    margin-left: 116px;
+  }
+
+  #textDesc p {
+    margin-left: -16px;
+    margin-right: -206px;
+  }
+
+  #textDesc h3::after {
+    margin-left: -6px;
+  }
+  #textDesc .button {
+    margin-left: 83px;
+    width: 100%;
+  }
+}
