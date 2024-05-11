@@ -201,3 +201,14 @@ document.addEventListener("DOMContentLoaded", function() {
         secAbe.style.display = 'block';
         secBae.style.display = 'none';
     });
+
+    // HamburgerBTN
+
+    function toggleContent() {
+      var content = document.getElementById("content");
+      if (content.style.display === "none") {
+        content.style.display = "block";
+      } else {
+        content.style.display = "none";
+      }
+    }

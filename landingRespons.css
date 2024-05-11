@@ -1,43 +1,23 @@
-@media screen and (max-width: 1357px) {
-  #map {
-    position: absolute;
-    top: 42px;
-    left: 400px;
-    top: 226px;
-    width: 400px;
-  }
-  ul {
-    left: 500px;
-    top: 433px;
-  }
-  #ch4 {
-    margin-top: 39px;
-    margin-left: 84px;
-  }
-  #ch3 {
-    margin-left: 66px;
-  }
-}
 
-@media screen and (max-width: 1160px) {
-  #map {
-    left: 360px;
-  }
-  ul {
-    left: 462px;
-    top: 436px;
-  }
-}
 @media screen and (max-width: 1025px) {
- 
+
+  body{
+    overflow: auto;
+  }
+ .navbarS{
+  width: 103%;
+ }
+
+ #defaultBg{
+  left: -300px;
+ }
+
   #map {
-    left: 448px;
-    top: 233px;
-    width: 477px;
+    margin-left: -150px;
   }
   ul {
-    left: 585px;
-    top: 498px;
+    left: 108px;
+    top: 362px;
   }
   #textDesc h3 {
     font-size: 50px;
@@ -65,11 +45,21 @@
   #vid2,
   #vid3,
   #vid4 {
-    height: 125vh;
+    left: -500px;
+    width: 2200px;
   }
+  
+#readMore{
+  margin-left: 37%;
+}
 }
 
 @media screen and (max-width: 769px) {
+
+
+  #defaultBg{
+    left: -350px;
+  }
 
   #textDesc p {
     margin-right: -90px;
@@ -85,38 +75,52 @@
   #textDesc h3::after {
     margin-left: 225px;
   }
-  .navbar {
+  .navbarS{
     width: 120%;
+   }
+
+   
+  h3#ncOx:after{
+    margin-left: 261px;
+    width: 218px !important;
   }
+
+  
+
   #vid1,
   #vid2,
   #vid3,
   #vid4 {
     visibility: hidden;
   }
+
 }
 
-@media screen and (max-width: 376px) {
-  body{
-    background-color: black;
-  }
-  #defaultBg{
-    height: 1500px;
-    left: -500px;
-  }
-  .navbar {
-      width: 184% !important;
-  }
-  #textDesc p {
-    margin-right: -136px;
-}
-}
 
 @media screen and (max-width: 426px) {
-  #map {
-    left: 193px;
-    top: 227px;
-    width: 500px;
+
+
+  #defaultBg{
+    width: 2500px;
+    left: -870px;
+  }
+
+  h3#ncOx:after{
+    margin-left: 111px !important;
+  }
+
+  h3#nc2:after{
+    margin-left: 48px !important;
+    width: 350px !important;
+  }
+  
+  #map{
+    margin-left: 50px;
+  }
+  
+  #mapUl{
+    left: 294px;
+        top: 361px;
   }
 
   #textDesc p {
@@ -130,15 +134,16 @@
   }
 
   #textDesc {
-    margin-top: 150px;
+    margin-top: 0px;
     margin-right: -200px;
   }
 
   #textDesc h3::after {
     margin-left: 80px;
+    width: 288px !important;
   }
-  .navbar {
-    width: 160%;
+  .navbarS {
+    width: 171%  !important;
   }
   #ibms {
     margin-right: 132px;
@@ -156,15 +161,65 @@
   #vid4 {
     margin-top: -1000px;
   }
+
+  .animated-button{
+    width: 167%;
+  }
+
+  .animated-button:hover .circle {
+    width: 110%;
+  }
+
+}
+
+
+@media screen and (max-width: 376px) {
+  body{
+    background-color: black;
+  }
+  #defaultBg{
+    height: 1500px;
+    left: -620px;
+  }
+  .navbarS {
+      width: 194% !important;
+  }
+  #textDesc p {
+    margin-right: -136px;
+}
+
+.animated-button{
+  width: 191%;
+}
+
+
+
+#textDesc h3{
+  margin-left: 118px;
+  font-size: 30px;
+}
+
+#textDesc h3::after {
+  margin-left: 22px;
+}
+
+#readMore {
+  margin-left: 42%;
+}
+
 }
 
 @media screen and (max-width: 322px) {
 
   body{
-    overflow: hidden;
+    overflow-x: hidden;
   }
-  .navbar {
-    width: 184%;
+  .navbarS {
+    width: 184%  !important;
+}
+
+#readMore {
+  margin-left: 42%;
 }
 
   #defaultBg{
@@ -183,13 +238,14 @@
   }
 
 
+
   .heading h2{
     margin-left: 150px;
     width: 300px;
     font-size: 40px;
   }
-  .navbar {
-    width: 210% !important;
+  .navbarS {
+    width: 228% !important;
 }
 
   .sideManu {
@@ -203,13 +259,13 @@
   .animated-button:hover .circle {
     width: 1000px;
   }
-
+/* 
   #map {
     display: none;
   }
   ul {
     display: none;
-  }
+  } */
   #textDesc h3 {
     margin-left: 116px;
   }
